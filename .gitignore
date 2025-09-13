@@ -1,0 +1,13 @@
+## Build related ##
+# Cmake
+CMakeUserPresets.json
+build/
+
+# VCPKG
+vcpkg-manifest-install.log
+vcpkg_installed/
+
+## Clangd stuff ##
+compile_commands.json
+.cache/clangd/
+
