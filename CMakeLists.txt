@@ -16,6 +16,8 @@ endif()
 
 project(KernoEngine LANGUAGES CXX)
 
+find_package(spdlog CONFIG REQUIRED)
+
 function(set_target_build_settings target)
     target_compile_definitions(
         ${target} PRIVATE

@@ -8,7 +8,7 @@ file(
 add_library(Kerno SHARED ${files})
 
 target_include_directories(Kerno PUBLIC ${CMAKE_CURRENT_LIST_DIR}/src/)
-
+target_link_libraries(Kerno PUBLIC spdlog::spdlog)
 target_precompile_headers(Kerno PRIVATE ${CMAKE_CURRENT_LIST_DIR}/pch.hpp)
 
 set_target_build_settings(Kerno)

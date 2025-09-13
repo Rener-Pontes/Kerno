@@ -1,4 +1,7 @@
 {
+  "dependencies": [
+    "spdlog"
+  ],
   "vcpkg-configuration": {
     "default-registry": {
       "kind": "git",
