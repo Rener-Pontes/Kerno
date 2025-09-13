@@ -1,7 +1,5 @@
 #include "application.hpp"
 
-#include <iostream>
-
 namespace kerno {
 
     int Application::run() {
